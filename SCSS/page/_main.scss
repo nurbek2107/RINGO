@@ -1,0 +1,188 @@
+$font-family: "Raleway", sans-serif;
+$font-family1: "Lato", sans-serif;
+.main_text{
+    p{
+        margin-top: 140px;
+        font-family: $font-family;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 46px;
+        text-align: center;
+    }
+
+}
+.main_card{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+
+}
+.main_card1{
+    border-left: 2px solid gray;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 60px;
+    p{
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 24px;
+        color: gray;
+        margin-left: 20px;
+    }
+    span{
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 24px;
+        color: rgba(61, 74, 57, 1);
+        margin-left: 20px;
+    }
+    img{
+        margin-left: 20px;
+    }
+}
+.main_card2{
+    width: 393px;
+    border-left: 2px solid gray;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 60px;
+    p{
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 24px;
+        color: gray;
+        margin-left: 20px;
+    }
+    span{
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 24px;
+        color: rgba(61, 74, 57, 1);
+        margin-left: 20px;
+    }
+    img{
+        margin-left: 20px;
+    }
+}
+.main_card3{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 60px;
+    p{
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 24px;
+        color: gray;
+        margin-left: 20px;
+    }
+    span{
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 24px;
+        color: rgba(61, 74, 57, 1);
+        margin-left: 20px;
+    }
+    img{
+        margin-left: 20px;
+    }
+}
+
+.main_brend{
+    margin-top: 140px;
+    background-color:rgba(61, 74, 57, 1);
+    .brend_text{
+        text-align: center;
+        padding-top: 100px;
+        p{
+            font-family: $font-family;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 46px;
+            color:#fff;
+        }
+    }
+}
+.brend_icon{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+.icon_top{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    .icon_top_left{
+        p{
+            margin-top: -10px;
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 24px;
+            color:gray;
+        }
+    }
+    .icon_top_center{
+        p{
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 24px;
+            color:gray;
+        }
+    }
+    .icon_top_right{
+        p{
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 24px;
+            color:gray;
+        }
+    }
+}
+
+.icon_bottom{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    .icon_top_left{
+        p{
+            margin-top: -10px;
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 24px;
+            color:gray;
+        }
+    }
+    .icon_top_center{
+        p{
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 24px;
+            color:gray;
+        }
+    }
+    .icon_top_right{
+        p{
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 24px;
+            color:gray;
+        }
+    }
+}
+@media screen and (max-width: 1222px){
+    .main_card{
+        display: grid;
+        grid-template-columns: auto auto ;
+    
+    }
+}
+@media screen and (max-width: 818px){
+    .main_card{
+        display: grid;
+        grid-template-columns: auto;
+    
+    }
+}
