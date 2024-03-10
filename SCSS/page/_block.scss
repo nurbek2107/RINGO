@@ -112,7 +112,7 @@ a{
         font-size: 18px;
     }
     button:hover{
-        background-color:#000000b3;
+        background-color:rgba(61, 74, 57, 1);
     }
 }
 
@@ -300,12 +300,12 @@ a{
 }
     
 }
-@media screen and (max-width: 671px){
+@media screen and (max-width: 686px){
     .nav_right{
      margin-top: -500px;
     }
 }
-@media screen and (max-width: 624px){
+@media screen and (max-width: 686px){
     .nav_center{
         display: none;
        }
@@ -314,7 +314,7 @@ a{
        grid-template-columns: auto;
        }
 }
-@media screen and (max-width: 536px){
+@media screen and (max-width: 586px){
     .nav_center{
         display: none;
        }
