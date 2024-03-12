@@ -429,8 +429,129 @@ aside{
         }
     }
 }
+.corusela{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 200px;
+}
+.items {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    
+  }
+.card_itms{
+margin-top: 450px;
+text-align: center;
+    .text_itms{
+        .p1{
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .p2{
+            font-family: $font-family;
+            font-weight: 500;
+            font-size: 18px;
+            color:gray;
+            margin-top: -20px;
+            margin-left: -210px;
+        }
+    }
+}
+  .items .item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 340px;
+ 
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+  }
+  
+  .item.prev {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+  }
+  
+  .item.next {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+  }
+  
+  .items .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    z-index: 100;
+  }
+  
+  .button-container .button {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .button-container .button:hover {
+    opacity: 2;
+  }
+  
+  .button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: -99;
+  }
+  
+  .button-container .button:nth-child(1) {
+    float: left;
+  }
+  
+  .button-container .button:nth-child(2) {
+    float: right;
+  }
+  .corusel_text{
+    text-align: center;
+    p{   
+        margin-top: 140px;
+         font-family: $font-family;
+         font-size: 46px;
+         font-weight: 600;
+    }
 
-
+  }
 
 @media screen and (max-width: 1440px){
     .menu_img{
@@ -488,7 +609,32 @@ aside{
         }
     }
 }
-@media screen and (max-width: 1222px){
+@media screen and (max-width: 1263px){
+    .card_itms{
+        margin-top: 400px;
+        text-align: center;
+        
+        }
+
+    .items .item {
+        width: 400px;
+        height: 240px;
+      }
+}
+@media screen and (max-width: 1226px){
+    .card_itms{
+        margin-top: 380px;
+        text-align: center;
+        
+        }
+    .items .item {
+        width: 250px;
+        height: 180px;
+      }
+     .items .button-container {
+        width: 400px;
+
+      }
     .bottom_1_left{
         width: 150px;
     }
@@ -514,6 +660,11 @@ aside{
     }
 }
 @media screen and (max-width: 1150px){
+    .card_itms{
+        margin-top: 390px;
+        text-align: center;
+        
+        }
     .aside{
         grid-template-columns: auto;
         justify-content: center;
@@ -521,11 +672,21 @@ aside{
     }
 }
 @media screen and (max-width: 1000px){
+    .card_itms{
+        margin-top: 390px;
+        text-align: center;
+        
+        }
     .section_1{
         grid-template-columns: auto auto;
     }
 }
 @media screen and (max-width: 834px){
+    .card_itms{
+        margin-top: 390px;
+        text-align: center;
+        
+        }
     .aside_right{
         img{
             width: 330%;
@@ -538,11 +699,36 @@ aside{
     }
 }
 @media screen and (max-width: 667px){
+    .card_itms{
+        margin-top: 380px;
+        text-align: center;
+        
+        }
     .section_1{
         grid-template-columns: auto;
     }
 }
+@media screen and (max-width: 635px){
+    .card_itms{
+        margin-top: 350px;
+        text-align: center;
+        
+        }
+    .items .item {
+        width: 150px;
+        height: 140px;
+      }
+     .items .button-container {
+        width: 200px;
+
+      }
+}
 @media screen and (max-width: 546px){
+    .card_itms{
+        margin-top: 350px;
+        text-align: center;
+        
+        }
      .bottom_1_left{
         width: 50px;
     }

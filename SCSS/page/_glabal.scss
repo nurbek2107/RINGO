@@ -9,3 +9,29 @@ a{
 li{
     list-style: none;
 }
+::-webkit-scrollbar {
+    height: 5px;
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    width: 1px;
+    background-color:rgba(0, 0, 0, 0.195);
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0000006b; 
+    border-radius: 50rem; 
+  }
+//   .overflow {
+//     display: flex;
+//     align-items:center;
+//     overflow-x: scroll;
+//     width: 100%;
+    
+//   }
+  .card_owerd{
+    width: 100%;
+    margin: 0 auto;
+  }
